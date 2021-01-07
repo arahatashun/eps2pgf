@@ -3,6 +3,7 @@ copied from https://sourceforge.net/projects/eps2pgf/
 # Install 
 ```bat
 ant jar
+cd dist_root/
 ```
 ---
 author:
