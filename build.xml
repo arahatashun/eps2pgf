@@ -17,6 +17,11 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+
+2021: Fixed the following error
+[javac] error: Source option 5 is no longer supported. Use 7 or later.
+[javac] error: Target option 5 is no longer supported. Use 7 or later.
 -->
 
 <project name="eps2pgf" basedir="." default="jar">
@@ -68,7 +73,7 @@ limitations under the License.
 			srcdir="${temp.build.dir}"
 			destdir="${build.dir}"
 			classpathref="classpath.path"
-			target="1.5"
+			target="1.7"
 		/>
 	</target>
 
