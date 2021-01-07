@@ -1,9 +1,13 @@
 # eps2pgf
 copied from https://sourceforge.net/projects/eps2pgf/
-# Install 
+## Install 
 ```bat
 ant jar
+```
+## Usage
+```bat
 cd dist_root/
+java -jar eps2pgf.jar ../other_files/doc/demo_figure.eps -o ../other_files/doc/demo_figure.tex
 ```
 ---
 author:
