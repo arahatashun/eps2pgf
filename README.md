@@ -193,9 +193,6 @@ using the inline `\tex[][]{}` rule. The and labels are replaced using
 the rules in the external file. Note the usage of the pgf- and psanchor
 in the rule for the label.
 
-![Original figure create by
-MATLAB[]{data-label="fig:demo_figure_orig"}](demo_figure)
-
 Copyright and license
 =====================
 
